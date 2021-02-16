@@ -19,7 +19,7 @@ def add_item():
     clear_text()
     populate_list()
 
-def selcet_item(event):
+def selcet_item():
     try:
         global selected_item
         index = parts_list.curselection()[0]
