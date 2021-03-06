@@ -16,4 +16,3 @@ df = pd.DataFrame(
 )
 
 print(df.head())
-plt.plot(df.close)
